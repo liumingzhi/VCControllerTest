@@ -1,0 +1,13 @@
+[INFO] Running command /usr/local/bin/infer -- clang -c AppDelegate.m
+[INFO] Path to infer script /usr/local/bin/infer (/usr/local/Cellar/infer/0.5.0/libexec/infer/lib/python/infer)
+[INFO] Infer version v0.5.0
+Copyright 2009 - present Facebook. All Rights Reserved.
+
+
+[INFO] Platform: Darwin-15.6.0-x86_64-i386-64bit
+[INFO] PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+[INFO] SHELL=/bin/bash
+[INFO] PWD=/Users/mingzhiliu/Desktop/objTest/VCControllerTest/VCControllerTest
+[INFO] Running command [u'clang', u'-c', u'AppDelegate.m'] with env:
+{'VERSIONER_PYTHON_PREFER_32_BIT': 'no', 'TERM_PROGRAM_VERSION': '361.1', 'LOGNAME': 'mingzhiliu', 'USER': 'mingzhiliu', 'PATH': '/usr/local/Cellar/infer/0.5.0/libexec/infer/lib/python/inferlib/../../../lib/wrappers:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin', 'HOME': '/Users/mingzhiliu', 'TERM_PROGRAM': 'Apple_Terminal', 'LANG': 'zh_CN.UTF-8', 'TERM': 'xterm-256color', 'Apple_PubSub_Socket_Render': '/private/tmp/com.apple.launchd.pLqta9bAT4/Render', 'VERSIONER_PYTHON_VERSION': '2.7', 'SHLVL': '1', 'XPC_FLAGS': '0x0', 'TMPDIR': '/var/folders/pz/r77yw9j11ss7ysf4p4ylx0nh0000gp/T/', 'TERM_SESSION_ID': '3DFBED2B-267E-4B55-BF10-5E6A281AD6FA', 'XPC_SERVICE_NAME': '0', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.eRlQRzvQyD/Listeners', 'SHELL': '/bin/bash', 'INFER_OLD_PATH': '/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin', '_': '/usr/local/bin/infer', 'INFER_RESULTS_DIR': u'/Users/mingzhiliu/Desktop/objTest/VCControllerTest/VCControllerTest/infer-out', 'OLDPWD': '/Users/mingzhiliu/Desktop/objTest/VCControllerTest', '__CF_USER_TEXT_ENCODING': '0x1F6:0x19:0x34', 'PWD': '/Users/mingzhiliu/Desktop/objTest/VCControllerTest/VCControllerTest', 'FCP_INFER_FRONTEND_ARGS': '-project_root /Users/mingzhiliu/Desktop/objTest/VCControllerTest/VCControllerTest'}
+[ERROR] Error during capture phase, exiting
