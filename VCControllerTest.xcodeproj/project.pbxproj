@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0509FFE822D8879500FAD40F /* UIView+TouchIconAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0509FFE722D8879500FAD40F /* UIView+TouchIconAnimate.m */; };
+		05DE73BE22D88B6400A366FB /* ToolsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DE73BC22D88B6400A366FB /* ToolsVC.m */; };
 		60086A925AA8C107307FE01B /* libPods-VCControllerTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DEABBE51064C189FEA70E92 /* libPods-VCControllerTest.a */; };
 		75032E141D66F55800F93567 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75032E131D66F55800F93567 /* main.m */; };
 		75032E171D66F55800F93567 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75032E161D66F55800F93567 /* AppDelegate.m */; };
@@ -28,7 +30,6 @@
 		75032E6F1D67018400F93567 /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 75032E6D1D67018400F93567 /* DetailVC.m */; };
 		75032E721D6702B300F93567 /* secondViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 75032E711D6702B300F93567 /* secondViewVC.m */; };
 		75032E751D6702F100F93567 /* ThirdViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 75032E741D6702F100F93567 /* ThirdViewVC.m */; };
-		75032E791D67082D00F93567 /* SecondDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 75032E781D67082D00F93567 /* SecondDetailVC.m */; };
 		750474BF1E81371C000CC5C1 /* FMockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 750474BE1E81371C000CC5C1 /* FMockView.m */; };
 		750474C21E81398D000CC5C1 /* MockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 750474C11E81398D000CC5C1 /* MockVC.m */; };
 		751C19311D6D9C3800755D57 /* KeyBoardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 751C19301D6D9C3800755D57 /* KeyBoardVC.m */; };
@@ -67,6 +68,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0509FFE622D8879500FAD40F /* UIView+TouchIconAnimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TouchIconAnimate.h"; sourceTree = "<group>"; };
+		0509FFE722D8879500FAD40F /* UIView+TouchIconAnimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TouchIconAnimate.m"; sourceTree = "<group>"; };
+		05DE73BC22D88B6400A366FB /* ToolsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolsVC.m; sourceTree = "<group>"; };
+		05DE73BD22D88B6400A366FB /* ToolsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolsVC.h; sourceTree = "<group>"; };
 		6DEABBE51064C189FEA70E92 /* libPods-VCControllerTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VCControllerTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75032E0F1D66F55800F93567 /* VCControllerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCControllerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75032E131D66F55800F93567 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -115,8 +120,6 @@
 		75032E731D6702F100F93567 /* ThirdViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewVC.h; sourceTree = "<group>"; };
 		75032E741D6702F100F93567 /* ThirdViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewVC.m; sourceTree = "<group>"; };
 		75032E761D67053100F93567 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		75032E771D67082D00F93567 /* SecondDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondDetailVC.h; sourceTree = "<group>"; };
-		75032E781D67082D00F93567 /* SecondDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondDetailVC.m; sourceTree = "<group>"; };
 		750474BD1E81371C000CC5C1 /* FMockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMockView.h; sourceTree = "<group>"; };
 		750474BE1E81371C000CC5C1 /* FMockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMockView.m; sourceTree = "<group>"; };
 		750474C01E81398D000CC5C1 /* MockVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockVC.h; sourceTree = "<group>"; };
@@ -179,6 +182,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0509FFE522D8876A00FAD40F /* UCcontrols */ = {
+			isa = PBXGroup;
+			children = (
+				0509FFE622D8879500FAD40F /* UIView+TouchIconAnimate.h */,
+				0509FFE722D8879500FAD40F /* UIView+TouchIconAnimate.m */,
+			);
+			path = UCcontrols;
+			sourceTree = "<group>";
+		};
 		75032E061D66F55800F93567 = {
 			isa = PBXGroup;
 			children = (
@@ -210,18 +222,19 @@
 				75032E161D66F55800F93567 /* AppDelegate.m */,
 				75032E6A1D67018400F93567 /* RootViewVC.h */,
 				75032E6B1D67018400F93567 /* RootViewVC.m */,
+				05DE73BD22D88B6400A366FB /* ToolsVC.h */,
+				05DE73BC22D88B6400A366FB /* ToolsVC.m */,
 				75032E6C1D67018400F93567 /* DetailVC.h */,
 				75032E6D1D67018400F93567 /* DetailVC.m */,
 				75032E701D6702B300F93567 /* secondViewVC.h */,
 				75032E711D6702B300F93567 /* secondViewVC.m */,
-				75032E771D67082D00F93567 /* SecondDetailVC.h */,
-				75032E781D67082D00F93567 /* SecondDetailVC.m */,
 				75032E731D6702F100F93567 /* ThirdViewVC.h */,
 				75032E741D6702F100F93567 /* ThirdViewVC.m */,
 				750474C01E81398D000CC5C1 /* MockVC.h */,
 				750474C11E81398D000CC5C1 /* MockVC.m */,
 				750474BD1E81371C000CC5C1 /* FMockView.h */,
 				750474BE1E81371C000CC5C1 /* FMockView.m */,
+				0509FFE522D8876A00FAD40F /* UCcontrols */,
 				751C192B1D6D955A00755D57 /* VCCFrameWork */,
 				751C192E1D6D9C0400755D57 /* KeyBoardController */,
 				7544263E1D6DE7F300282D9A /* Tools */,
@@ -532,6 +545,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7544263D1D6DE54E00282D9A /* FlightCustomTextField.m in Sources */,
+				0509FFE822D8879500FAD40F /* UIView+TouchIconAnimate.m in Sources */,
 				754426471D6E9FD900282D9A /* PHTextView.m in Sources */,
 				751C19341D6D9D3700755D57 /* KeyboardController.m in Sources */,
 				75032E591D66FCE400F93567 /* AppInfo.m in Sources */,
@@ -542,6 +556,7 @@
 				75032E501D66FB0F00F93567 /* VCAnimationBottom.m in Sources */,
 				754426441D6DE9B200282D9A /* UIImage+Utility.m in Sources */,
 				75032E621D66FE5000F93567 /* StorageManager.m in Sources */,
+				05DE73BE22D88B6400A366FB /* ToolsVC.m in Sources */,
 				751C19311D6D9C3800755D57 /* KeyBoardVC.m in Sources */,
 				75032E5F1D66FD3200F93567 /* Reachability.m in Sources */,
 				75032E661D66FE9C00F93567 /* DataStruct.m in Sources */,
@@ -559,7 +574,6 @@
 				751C19371D6DA65E00755D57 /* KeyboardObserver.m in Sources */,
 				75032E4F1D66FB0F00F93567 /* UIViewController+VCController.m in Sources */,
 				75032E521D66FB0F00F93567 /* VCController.m in Sources */,
-				75032E791D67082D00F93567 /* SecondDetailVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

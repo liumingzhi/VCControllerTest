@@ -10,6 +10,7 @@
 #import "KeyBoardController.h"
 #import "FlightCustomTextField.h"
 #import "PHTextView.h"
+#import "UIView+TouchIconAnimate.h"
 
 typedef NS_ENUM(NSInteger,keyBoardTag)
 {
@@ -135,6 +136,11 @@ typedef NS_ENUM(NSInteger,keyBoardTag)
     [btn setTitle:@"jsPatch" forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(jsPatchTest) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
+    
+    UIImageView *iconView = [[UIImageView alloc] initWithFrame:CGRectMake(100, 60, 30, 30)];
+    iconView.showTouchIconAnimate = YES;
+    iconView.image = [UIImage imageNamed:@"ar_icon_star"];
+    [self.view addSubview:iconView];
 
 }
 

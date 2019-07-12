@@ -9,7 +9,7 @@
 #import "RootViewVC.h"
 #import "DetailVC.h"
 #import "secondViewVC.h"
-#import "SecondDetailVC.h"
+#import "ToolsVC.h"
 //#import "VCAnimation.h"
 //#import "VCAnomationBottom.h"
 @interface RootViewVC ()
@@ -183,7 +183,7 @@
 -(void)goTools
 {
 
-    SecondDetailVC *secondDetail = [[SecondDetailVC alloc] init];
+    ToolsVC *secondDetail = [[ToolsVC alloc] init];
     
     [VCController pushVC:secondDetail WithAnimation:[VCAnimationClassic defaultAnimation]];
     
