@@ -9,6 +9,18 @@
 /* Begin PBXBuildFile section */
 		0509FFE822D8879500FAD40F /* UIView+TouchIconAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0509FFE722D8879500FAD40F /* UIView+TouchIconAnimate.m */; };
 		05DE73BE22D88B6400A366FB /* ToolsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DE73BC22D88B6400A366FB /* ToolsVC.m */; };
+		05E7F343240BF755006616B7 /* KeyBoardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E7F337240BF754006616B7 /* KeyBoardVC.m */; };
+		05E7F344240BF755006616B7 /* KeyboardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E7F339240BF754006616B7 /* KeyboardController.m */; };
+		05E7F345240BF755006616B7 /* EventBusCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E7F33D240BF755006616B7 /* EventBusCenter.m */; };
+		05E7F346240BF755006616B7 /* KeyboardObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E7F340240BF755006616B7 /* KeyboardObserver.m */; };
+		05E7F347240BF755006616B7 /* FlightCustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E7F341240BF755006616B7 /* FlightCustomTextField.m */; };
+		05E7F348240BF755006616B7 /* PHTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E7F342240BF755006616B7 /* PHTextView.m */; };
+		05E7F34D240BF818006616B7 /* AppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E7F34B240BF818006616B7 /* AppInfo.m */; };
+		05E7F357240BF990006616B7 /* NSAttributedString+Attributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E7F354240BF990006616B7 /* NSAttributedString+Attributes.m */; };
+		05E7F35D240BFA4C006616B7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E7F35C240BFA4C006616B7 /* Reachability.m */; };
+		05E7F366240BFCA2006616B7 /* NSString+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E7F361240BFCA2006616B7 /* NSString+Hex.m */; };
+		05E7F367240BFCA2006616B7 /* DataStruct.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E7F363240BFCA2006616B7 /* DataStruct.m */; };
+		05E7F368240BFCA2006616B7 /* StorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E7F364240BFCA2006616B7 /* StorageManager.m */; };
 		60086A925AA8C107307FE01B /* libPods-VCControllerTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DEABBE51064C189FEA70E92 /* libPods-VCControllerTest.a */; };
 		75032E141D66F55800F93567 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75032E131D66F55800F93567 /* main.m */; };
 		75032E171D66F55800F93567 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75032E161D66F55800F93567 /* AppDelegate.m */; };
@@ -20,27 +32,16 @@
 		75032E511D66FB0F00F93567 /* VCAnimationClassic.m in Sources */ = {isa = PBXBuildFile; fileRef = 75032E4B1D66FB0F00F93567 /* VCAnimationClassic.m */; };
 		75032E521D66FB0F00F93567 /* VCController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75032E4D1D66FB0F00F93567 /* VCController.m */; };
 		75032E551D66FB8000F93567 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 75032E541D66FB8000F93567 /* UIView+Frame.m */; };
-		75032E591D66FCE400F93567 /* AppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 75032E571D66FCE400F93567 /* AppInfo.m */; };
 		75032E5C1D66FD0C00F93567 /* BusinessStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 75032E5B1D66FD0C00F93567 /* BusinessStack.m */; };
-		75032E5F1D66FD3200F93567 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 75032E5E1D66FD3200F93567 /* Reachability.m */; };
-		75032E621D66FE5000F93567 /* StorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75032E611D66FE5000F93567 /* StorageManager.m */; };
-		75032E661D66FE9C00F93567 /* DataStruct.m in Sources */ = {isa = PBXBuildFile; fileRef = 75032E651D66FE9C00F93567 /* DataStruct.m */; };
-		75032E691D66FF1A00F93567 /* NSString+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 75032E681D66FF1A00F93567 /* NSString+Hex.m */; };
 		75032E6E1D67018400F93567 /* RootViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 75032E6B1D67018400F93567 /* RootViewVC.m */; };
 		75032E6F1D67018400F93567 /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 75032E6D1D67018400F93567 /* DetailVC.m */; };
 		75032E721D6702B300F93567 /* secondViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 75032E711D6702B300F93567 /* secondViewVC.m */; };
 		75032E751D6702F100F93567 /* ThirdViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 75032E741D6702F100F93567 /* ThirdViewVC.m */; };
 		750474BF1E81371C000CC5C1 /* FMockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 750474BE1E81371C000CC5C1 /* FMockView.m */; };
 		750474C21E81398D000CC5C1 /* MockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 750474C11E81398D000CC5C1 /* MockVC.m */; };
-		751C19311D6D9C3800755D57 /* KeyBoardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 751C19301D6D9C3800755D57 /* KeyBoardVC.m */; };
-		751C19341D6D9D3700755D57 /* KeyboardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 751C19331D6D9D3700755D57 /* KeyboardController.m */; };
-		751C19371D6DA65E00755D57 /* KeyboardObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 751C19361D6DA65E00755D57 /* KeyboardObserver.m */; };
-		751C193A1D6DA66F00755D57 /* EventBusCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 751C19391D6DA66F00755D57 /* EventBusCenter.m */; };
 		751C193C1D6DB16700755D57 /* FTTSOrderFillCamelBGNew.png in Resources */ = {isa = PBXBuildFile; fileRef = 751C193B1D6DB16700755D57 /* FTTSOrderFillCamelBGNew.png */; };
-		7544263D1D6DE54E00282D9A /* FlightCustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7544263C1D6DE54E00282D9A /* FlightCustomTextField.m */; };
 		754426411D6DE80D00282D9A /* UIColor+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 754426401D6DE80D00282D9A /* UIColor+Utility.m */; };
 		754426441D6DE9B200282D9A /* UIImage+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 754426431D6DE9B200282D9A /* UIImage+Utility.m */; };
-		754426471D6E9FD900282D9A /* PHTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 754426461D6E9FD900282D9A /* PHTextView.m */; };
 		7544264A1D6EA1D000282D9A /* NSString+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 754426491D6EA1D000282D9A /* NSString+Utility.m */; };
 		7544264C1D6EC9B000282D9A /* FCustomBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7544264B1D6EC9B000282D9A /* FCustomBack@2x.png */; };
 		754426DE1D76AF0A00282D9A /* JSPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 754426DD1D76AF0A00282D9A /* JSPatch.framework */; };
@@ -72,6 +73,32 @@
 		0509FFE722D8879500FAD40F /* UIView+TouchIconAnimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TouchIconAnimate.m"; sourceTree = "<group>"; };
 		05DE73BC22D88B6400A366FB /* ToolsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolsVC.m; sourceTree = "<group>"; };
 		05DE73BD22D88B6400A366FB /* ToolsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolsVC.h; sourceTree = "<group>"; };
+		05E7F337240BF754006616B7 /* KeyBoardVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBoardVC.m; sourceTree = "<group>"; };
+		05E7F338240BF754006616B7 /* EventBusCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventBusCenter.h; sourceTree = "<group>"; };
+		05E7F339240BF754006616B7 /* KeyboardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardController.m; sourceTree = "<group>"; };
+		05E7F33A240BF754006616B7 /* KeyboardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardController.h; sourceTree = "<group>"; };
+		05E7F33B240BF754006616B7 /* FlightCustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightCustomTextField.h; sourceTree = "<group>"; };
+		05E7F33C240BF754006616B7 /* KeyBoardVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoardVC.h; sourceTree = "<group>"; };
+		05E7F33D240BF755006616B7 /* EventBusCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventBusCenter.m; sourceTree = "<group>"; };
+		05E7F33E240BF755006616B7 /* KeyboardObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardObserver.h; sourceTree = "<group>"; };
+		05E7F33F240BF755006616B7 /* PHTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHTextView.h; sourceTree = "<group>"; };
+		05E7F340240BF755006616B7 /* KeyboardObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardObserver.m; sourceTree = "<group>"; };
+		05E7F341240BF755006616B7 /* FlightCustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightCustomTextField.m; sourceTree = "<group>"; };
+		05E7F342240BF755006616B7 /* PHTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHTextView.m; sourceTree = "<group>"; };
+		05E7F34A240BF818006616B7 /* AppInfoPrt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInfoPrt.h; sourceTree = "<group>"; };
+		05E7F34B240BF818006616B7 /* AppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppInfo.m; sourceTree = "<group>"; };
+		05E7F34C240BF818006616B7 /* AppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInfo.h; sourceTree = "<group>"; };
+		05E7F352240BF990006616B7 /* NSAttributedString+Attributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Attributes.h"; sourceTree = "<group>"; };
+		05E7F354240BF990006616B7 /* NSAttributedString+Attributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Attributes.m"; sourceTree = "<group>"; };
+		05E7F35B240BFA4C006616B7 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		05E7F35C240BFA4C006616B7 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		05E7F35F240BFCA2006616B7 /* StorageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageManager.h; sourceTree = "<group>"; };
+		05E7F360240BFCA2006616B7 /* MergeDataStoragePrt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeDataStoragePrt.h; sourceTree = "<group>"; };
+		05E7F361240BFCA2006616B7 /* NSString+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hex.m"; sourceTree = "<group>"; };
+		05E7F362240BFCA2006616B7 /* DataStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStruct.h; sourceTree = "<group>"; };
+		05E7F363240BFCA2006616B7 /* DataStruct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStruct.m; sourceTree = "<group>"; };
+		05E7F364240BFCA2006616B7 /* StorageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageManager.m; sourceTree = "<group>"; };
+		05E7F365240BFCA2006616B7 /* NSString+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hex.h"; sourceTree = "<group>"; };
 		6DEABBE51064C189FEA70E92 /* libPods-VCControllerTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VCControllerTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75032E0F1D66F55800F93567 /* VCControllerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCControllerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75032E131D66F55800F93567 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -97,20 +124,8 @@
 		75032E4E1D66FB0F00F93567 /* VCControllerPtc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCControllerPtc.h; sourceTree = "<group>"; };
 		75032E531D66FB8000F93567 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		75032E541D66FB8000F93567 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
-		75032E561D66FCE400F93567 /* AppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInfo.h; sourceTree = "<group>"; };
-		75032E571D66FCE400F93567 /* AppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppInfo.m; sourceTree = "<group>"; };
-		75032E581D66FCE400F93567 /* AppInfoPrt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInfoPrt.h; sourceTree = "<group>"; };
 		75032E5A1D66FD0C00F93567 /* BusinessStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessStack.h; sourceTree = "<group>"; };
 		75032E5B1D66FD0C00F93567 /* BusinessStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessStack.m; sourceTree = "<group>"; };
-		75032E5D1D66FD3200F93567 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		75032E5E1D66FD3200F93567 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		75032E601D66FE5000F93567 /* StorageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageManager.h; sourceTree = "<group>"; };
-		75032E611D66FE5000F93567 /* StorageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageManager.m; sourceTree = "<group>"; };
-		75032E631D66FE7700F93567 /* MergeDataStoragePrt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeDataStoragePrt.h; sourceTree = "<group>"; };
-		75032E641D66FE9C00F93567 /* DataStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStruct.h; sourceTree = "<group>"; };
-		75032E651D66FE9C00F93567 /* DataStruct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStruct.m; sourceTree = "<group>"; };
-		75032E671D66FF1A00F93567 /* NSString+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hex.h"; sourceTree = "<group>"; };
-		75032E681D66FF1A00F93567 /* NSString+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hex.m"; sourceTree = "<group>"; };
 		75032E6A1D67018400F93567 /* RootViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewVC.h; sourceTree = "<group>"; };
 		75032E6B1D67018400F93567 /* RootViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewVC.m; sourceTree = "<group>"; };
 		75032E6C1D67018400F93567 /* DetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailVC.h; sourceTree = "<group>"; };
@@ -124,23 +139,11 @@
 		750474BE1E81371C000CC5C1 /* FMockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMockView.m; sourceTree = "<group>"; };
 		750474C01E81398D000CC5C1 /* MockVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockVC.h; sourceTree = "<group>"; };
 		750474C11E81398D000CC5C1 /* MockVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockVC.m; sourceTree = "<group>"; };
-		751C192F1D6D9C3800755D57 /* KeyBoardVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoardVC.h; sourceTree = "<group>"; };
-		751C19301D6D9C3800755D57 /* KeyBoardVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBoardVC.m; sourceTree = "<group>"; };
-		751C19321D6D9D3700755D57 /* KeyboardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardController.h; sourceTree = "<group>"; };
-		751C19331D6D9D3700755D57 /* KeyboardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardController.m; sourceTree = "<group>"; };
-		751C19351D6DA65E00755D57 /* KeyboardObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardObserver.h; sourceTree = "<group>"; };
-		751C19361D6DA65E00755D57 /* KeyboardObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardObserver.m; sourceTree = "<group>"; };
-		751C19381D6DA66F00755D57 /* EventBusCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventBusCenter.h; sourceTree = "<group>"; };
-		751C19391D6DA66F00755D57 /* EventBusCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventBusCenter.m; sourceTree = "<group>"; };
 		751C193B1D6DB16700755D57 /* FTTSOrderFillCamelBGNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FTTSOrderFillCamelBGNew.png; sourceTree = "<group>"; };
-		7544263B1D6DE54E00282D9A /* FlightCustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightCustomTextField.h; sourceTree = "<group>"; };
-		7544263C1D6DE54E00282D9A /* FlightCustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightCustomTextField.m; sourceTree = "<group>"; };
 		7544263F1D6DE80D00282D9A /* UIColor+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utility.h"; sourceTree = "<group>"; };
 		754426401D6DE80D00282D9A /* UIColor+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utility.m"; sourceTree = "<group>"; };
 		754426421D6DE9B200282D9A /* UIImage+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utility.h"; sourceTree = "<group>"; };
 		754426431D6DE9B200282D9A /* UIImage+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utility.m"; sourceTree = "<group>"; };
-		754426451D6E9FD900282D9A /* PHTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHTextView.h; sourceTree = "<group>"; };
-		754426461D6E9FD900282D9A /* PHTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHTextView.m; sourceTree = "<group>"; };
 		754426481D6EA1D000282D9A /* NSString+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utility.h"; sourceTree = "<group>"; };
 		754426491D6EA1D000282D9A /* NSString+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utility.m"; sourceTree = "<group>"; };
 		7544264B1D6EC9B000282D9A /* FCustomBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FCustomBack@2x.png"; sourceTree = "<group>"; };
@@ -191,6 +194,60 @@
 			path = UCcontrols;
 			sourceTree = "<group>";
 		};
+		05E7F336240BF747006616B7 /* KeyBoardController */ = {
+			isa = PBXGroup;
+			children = (
+				05E7F338240BF754006616B7 /* EventBusCenter.h */,
+				05E7F33D240BF755006616B7 /* EventBusCenter.m */,
+				05E7F33B240BF754006616B7 /* FlightCustomTextField.h */,
+				05E7F341240BF755006616B7 /* FlightCustomTextField.m */,
+				05E7F33A240BF754006616B7 /* KeyboardController.h */,
+				05E7F339240BF754006616B7 /* KeyboardController.m */,
+				05E7F33E240BF755006616B7 /* KeyboardObserver.h */,
+				05E7F340240BF755006616B7 /* KeyboardObserver.m */,
+				05E7F33C240BF754006616B7 /* KeyBoardVC.h */,
+				05E7F337240BF754006616B7 /* KeyBoardVC.m */,
+				05E7F33F240BF755006616B7 /* PHTextView.h */,
+				05E7F342240BF755006616B7 /* PHTextView.m */,
+			);
+			path = KeyBoardController;
+			sourceTree = "<group>";
+		};
+		05E7F349240BF7ED006616B7 /* AppInfo */ = {
+			isa = PBXGroup;
+			children = (
+				05E7F34C240BF818006616B7 /* AppInfo.h */,
+				05E7F34B240BF818006616B7 /* AppInfo.m */,
+				05E7F34A240BF818006616B7 /* AppInfoPrt.h */,
+				05E7F35B240BFA4C006616B7 /* Reachability.h */,
+				05E7F35C240BFA4C006616B7 /* Reachability.m */,
+			);
+			path = AppInfo;
+			sourceTree = "<group>";
+		};
+		05E7F351240BF980006616B7 /* Common3rd */ = {
+			isa = PBXGroup;
+			children = (
+				05E7F352240BF990006616B7 /* NSAttributedString+Attributes.h */,
+				05E7F354240BF990006616B7 /* NSAttributedString+Attributes.m */,
+			);
+			path = Common3rd;
+			sourceTree = "<group>";
+		};
+		05E7F35E240BFBF4006616B7 /* CommonStorage */ = {
+			isa = PBXGroup;
+			children = (
+				05E7F362240BFCA2006616B7 /* DataStruct.h */,
+				05E7F363240BFCA2006616B7 /* DataStruct.m */,
+				05E7F360240BFCA2006616B7 /* MergeDataStoragePrt.h */,
+				05E7F365240BFCA2006616B7 /* NSString+Hex.h */,
+				05E7F361240BFCA2006616B7 /* NSString+Hex.m */,
+				05E7F35F240BFCA2006616B7 /* StorageManager.h */,
+				05E7F364240BFCA2006616B7 /* StorageManager.m */,
+			);
+			path = CommonStorage;
+			sourceTree = "<group>";
+		};
 		75032E061D66F55800F93567 = {
 			isa = PBXGroup;
 			children = (
@@ -234,9 +291,12 @@
 				750474C11E81398D000CC5C1 /* MockVC.m */,
 				750474BD1E81371C000CC5C1 /* FMockView.h */,
 				750474BE1E81371C000CC5C1 /* FMockView.m */,
+				05E7F349240BF7ED006616B7 /* AppInfo */,
+				05E7F351240BF980006616B7 /* Common3rd */,
+				05E7F35E240BFBF4006616B7 /* CommonStorage */,
+				05E7F336240BF747006616B7 /* KeyBoardController */,
 				0509FFE522D8876A00FAD40F /* UCcontrols */,
 				751C192B1D6D955A00755D57 /* VCCFrameWork */,
-				751C192E1D6D9C0400755D57 /* KeyBoardController */,
 				7544263E1D6DE7F300282D9A /* Tools */,
 				75032E1E1D66F55800F93567 /* Assets.xcassets */,
 				75032E231D66F55800F93567 /* Info.plist */,
@@ -290,41 +350,10 @@
 				75032E4E1D66FB0F00F93567 /* VCControllerPtc.h */,
 				75032E531D66FB8000F93567 /* UIView+Frame.h */,
 				75032E541D66FB8000F93567 /* UIView+Frame.m */,
-				75032E561D66FCE400F93567 /* AppInfo.h */,
-				75032E571D66FCE400F93567 /* AppInfo.m */,
-				75032E581D66FCE400F93567 /* AppInfoPrt.h */,
 				75032E5A1D66FD0C00F93567 /* BusinessStack.h */,
 				75032E5B1D66FD0C00F93567 /* BusinessStack.m */,
-				75032E5D1D66FD3200F93567 /* Reachability.h */,
-				75032E5E1D66FD3200F93567 /* Reachability.m */,
-				75032E601D66FE5000F93567 /* StorageManager.h */,
-				75032E611D66FE5000F93567 /* StorageManager.m */,
-				75032E631D66FE7700F93567 /* MergeDataStoragePrt.h */,
-				75032E641D66FE9C00F93567 /* DataStruct.h */,
-				75032E651D66FE9C00F93567 /* DataStruct.m */,
-				75032E671D66FF1A00F93567 /* NSString+Hex.h */,
-				75032E681D66FF1A00F93567 /* NSString+Hex.m */,
 			);
 			name = VCCFrameWork;
-			sourceTree = "<group>";
-		};
-		751C192E1D6D9C0400755D57 /* KeyBoardController */ = {
-			isa = PBXGroup;
-			children = (
-				751C192F1D6D9C3800755D57 /* KeyBoardVC.h */,
-				751C19301D6D9C3800755D57 /* KeyBoardVC.m */,
-				751C19321D6D9D3700755D57 /* KeyboardController.h */,
-				751C19331D6D9D3700755D57 /* KeyboardController.m */,
-				751C19351D6DA65E00755D57 /* KeyboardObserver.h */,
-				751C19361D6DA65E00755D57 /* KeyboardObserver.m */,
-				751C19381D6DA66F00755D57 /* EventBusCenter.h */,
-				751C19391D6DA66F00755D57 /* EventBusCenter.m */,
-				7544263B1D6DE54E00282D9A /* FlightCustomTextField.h */,
-				7544263C1D6DE54E00282D9A /* FlightCustomTextField.m */,
-				754426451D6E9FD900282D9A /* PHTextView.h */,
-				754426461D6E9FD900282D9A /* PHTextView.m */,
-			);
-			name = KeyBoardController;
 			sourceTree = "<group>";
 		};
 		7544263E1D6DE7F300282D9A /* Tools */ = {
@@ -447,6 +476,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -544,36 +574,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7544263D1D6DE54E00282D9A /* FlightCustomTextField.m in Sources */,
 				0509FFE822D8879500FAD40F /* UIView+TouchIconAnimate.m in Sources */,
-				754426471D6E9FD900282D9A /* PHTextView.m in Sources */,
-				751C19341D6D9D3700755D57 /* KeyboardController.m in Sources */,
-				75032E591D66FCE400F93567 /* AppInfo.m in Sources */,
 				75032E6F1D67018400F93567 /* DetailVC.m in Sources */,
 				750474C21E81398D000CC5C1 /* MockVC.m in Sources */,
 				75032E551D66FB8000F93567 /* UIView+Frame.m in Sources */,
-				751C193A1D6DA66F00755D57 /* EventBusCenter.m in Sources */,
 				75032E501D66FB0F00F93567 /* VCAnimationBottom.m in Sources */,
 				754426441D6DE9B200282D9A /* UIImage+Utility.m in Sources */,
-				75032E621D66FE5000F93567 /* StorageManager.m in Sources */,
 				05DE73BE22D88B6400A366FB /* ToolsVC.m in Sources */,
-				751C19311D6D9C3800755D57 /* KeyBoardVC.m in Sources */,
-				75032E5F1D66FD3200F93567 /* Reachability.m in Sources */,
-				75032E661D66FE9C00F93567 /* DataStruct.m in Sources */,
+				05E7F368240BFCA2006616B7 /* StorageManager.m in Sources */,
+				05E7F346240BF755006616B7 /* KeyboardObserver.m in Sources */,
 				750474BF1E81371C000CC5C1 /* FMockView.m in Sources */,
 				75032E721D6702B300F93567 /* secondViewVC.m in Sources */,
 				75032E751D6702F100F93567 /* ThirdViewVC.m in Sources */,
 				75032E6E1D67018400F93567 /* RootViewVC.m in Sources */,
+				05E7F357240BF990006616B7 /* NSAttributedString+Attributes.m in Sources */,
 				75032E5C1D66FD0C00F93567 /* BusinessStack.m in Sources */,
+				05E7F344240BF755006616B7 /* KeyboardController.m in Sources */,
+				05E7F367240BFCA2006616B7 /* DataStruct.m in Sources */,
+				05E7F366240BFCA2006616B7 /* NSString+Hex.m in Sources */,
+				05E7F348240BF755006616B7 /* PHTextView.m in Sources */,
 				75032E511D66FB0F00F93567 /* VCAnimationClassic.m in Sources */,
 				754426411D6DE80D00282D9A /* UIColor+Utility.m in Sources */,
 				7544264A1D6EA1D000282D9A /* NSString+Utility.m in Sources */,
+				05E7F34D240BF818006616B7 /* AppInfo.m in Sources */,
 				75032E171D66F55800F93567 /* AppDelegate.m in Sources */,
 				75032E141D66F55800F93567 /* main.m in Sources */,
-				75032E691D66FF1A00F93567 /* NSString+Hex.m in Sources */,
-				751C19371D6DA65E00755D57 /* KeyboardObserver.m in Sources */,
+				05E7F347240BF755006616B7 /* FlightCustomTextField.m in Sources */,
+				05E7F35D240BFA4C006616B7 /* Reachability.m in Sources */,
+				05E7F345240BF755006616B7 /* EventBusCenter.m in Sources */,
 				75032E4F1D66FB0F00F93567 /* UIViewController+VCController.m in Sources */,
 				75032E521D66FB0F00F93567 /* VCController.m in Sources */,
+				05E7F343240BF755006616B7 /* KeyBoardVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
